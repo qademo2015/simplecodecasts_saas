@@ -2,3 +2,7 @@ App URL on Heroku server:
 https://sleepy-mountain-93974.herokuapp.com/
 
 Terminal command to start Rails server:
+bundle exec rails s -p $PORT -b $IP
+
+Application URL when Rails server running:
+https://coder-manual-rails-as60.c9users.io
