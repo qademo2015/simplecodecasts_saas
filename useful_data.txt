@@ -6,3 +6,13 @@ bundle exec rails s -p $PORT -b $IP
 
 Application URL when Rails server running:
 https://coder-manual-rails-as60.c9users.io
+
+Run Rails console from command line:
+bundle exec rails console
+
+To commit any db transaction made in Rails console mode:
+u.profile.save (where 'u' - particular user, for example u = User.find(4))
+
+Useful URLs:
+1. All bootstrap stuff - http://getbootstrap.com
+2. CSS shadow generator - http://css3gen.com/box-shadow
