@@ -22,7 +22,9 @@
             <div class='well'>
                 <h2 class='text-center'>The Community</h2>
                 <p>Visit the community to meet other developers, entrepreneurs, and investors!</p>
-                <%= link_to "Visit the community", '#', class: 'btn btn-default btn-lg btn-block' %>
+                <!-- path in next row created by concatenation 'users' + '_path' -->
+                <!-- and pointing to users#index method in 'users.controller.rb' file -->
+                <%= link_to "Visit the community", users_path, class: 'btn btn-default btn-lg btn-block' %>
             </div>
         </div>
         
