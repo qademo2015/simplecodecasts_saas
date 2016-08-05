@@ -6,9 +6,8 @@ class UsersController < ApplicationController
     # The corresponding view should be titled 'index.html.erb'
     # and be located in 'app/views/users' folder
     def index
-    
+        @users = User.all
     end    
-    
     
     def show
         @user = User.find( params[:id] )
