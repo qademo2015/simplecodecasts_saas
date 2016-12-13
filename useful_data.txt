@@ -19,3 +19,7 @@ bundle exec rake routes
 Useful URLs:
 1. All bootstrap stuff - http://getbootstrap.com
 2. CSS shadow generator - http://css3gen.com/box-shadow
+
+Push all latest code to Heroku account ('prod') and run migrations:
+git push heroku master
+heroku run rake db:migrate

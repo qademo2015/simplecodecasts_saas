@@ -36,7 +36,7 @@ class ProfilesController < ApplicationController
             flash[:success] = 'Profile updated!'        
             redirect_to user_path( params[:user_id] )
         else
-            #nect row will redirect user to the Edit page in case if failure
+            #next row will redirect user to the Edit page in case if failure
             render action: :edit
         end    
     end    
